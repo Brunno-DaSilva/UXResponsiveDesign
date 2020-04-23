@@ -1,0 +1,138 @@
+/**************************************************************************************************************** 
+ The responsive design is acheive by a combination of flex-box, the usage of flexible unities and @media queries
+
+*****************************************************************************************************************/
+
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+
+:root {
+  --body-bg: #fbe8b3;
+  --div1-color: #264caa;
+  --div2-color: #58aae7;
+  --div3-color: #8cd6f4;
+  --mobile-bg-color: #424342;
+  --div5-color: #dde9f7;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--body-bg);
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  color: var(--div5-color);
+  margin: 1%;
+}
+
+.container h1 {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 4rem;
+}
+
+.one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 99%;
+  height: 40vh !important;
+  background-color: var(--div1-color);
+  margin: 0.5%;
+  border-radius: 0.8rem;
+}
+
+.two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 69%;
+  height: 90vh !important;
+  background-color: transparent;
+  margin: 0.5%;
+}
+/* .two__divOne{
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 49.5%;
+  background-color: var(--div3-color);
+  border-radius: 0.8rem;
+  
+} */
+.two__divTwo,
+.two__divOne {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 49.5%;
+  margin: 0.5rem;
+  background-color: transparent;
+  border-radius: 0.8rem;
+}
+
+.two__divOne--one,
+.two__divOne--two,
+.two__divOne--three,
+.two__divTwo--one,
+.two__divTwo--two,
+.two__divTwo--three {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--div3-color);
+  width: 33%;
+  margin: auto;
+  height: 100%;
+  border-radius: 0.8rem;
+}
+
+.three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--div2-color);
+  width: 29%;
+  height: 90vh;
+  margin: 0.5%;
+  border-radius: 0.8rem;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background: var(--mobile-bg-color);
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .container h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 2rem;
+  }
+
+  .one,
+  .two,
+  .three {
+    width: 100%;
+  }
+  .one {
+    height: 30vh;
+  }
+  .three {
+    height: 40vh;
+  }
+}
