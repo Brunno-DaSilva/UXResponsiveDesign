@@ -31,7 +31,7 @@ body {
   align-items: center;
   justify-content: center;
   color: var(--div5-color);
-  margin: 1%;
+  margin: 0.5%;
 }
 
 .container h1 {
@@ -44,10 +44,10 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 99%;
-  height: 30vh !important;
+  width: 98%;
+  height: 28vh !important;
   background-color: var(--div1-color);
-  margin: 0.5%;
+  margin: 0.2%;
   border-radius: 0.8rem;
 }
 
@@ -56,10 +56,11 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 69%;
-  height: 70vh !important;
+  width: 68%;
+  height: 65vh !important;
   background-color: var(--div2-color);
   margin: 0.5%;
+  margin-top: 1rem;
   border-radius: 0.8rem;
 }
 .three {
@@ -69,8 +70,9 @@ body {
   justify-content: center;
   background-color: var(--div2-color);
   width: 29%;
-  height: 70vh;
+  height: 65vh;
   margin: 0.5%;
+  margin-top: 1rem;
   border-radius: 0.8rem;
 }
 
@@ -81,6 +83,8 @@ body {
   .container {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
   }
   .container h1 {
     font-family: "Archivo Black", sans-serif;
@@ -92,8 +96,14 @@ body {
   .three {
     width: 100%;
   }
+
+  .two,
+  .three {
+    margin-top: 5rem !important;
+  }
+
   .one,
   .three {
-    height: 30vh;
+    height: 28vh;
   }
 }

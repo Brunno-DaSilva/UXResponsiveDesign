@@ -28,10 +28,14 @@ body {
 .container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: center;
+  align-content: space-around;
   color: var(--div5-color);
-  margin: 1%;
+  height: 100vh;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .container h1 {
@@ -44,8 +48,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 99%;
-  height: 40vh !important;
+  width: 98%;
+  height: 35vh !important;
   background-color: var(--div1-color);
   margin: 0.5%;
   border-radius: 0.8rem;
@@ -57,7 +61,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 69%;
-  height: 90vh !important;
+  height: 59vh !important;
   background-color: transparent;
   margin: 0.5%;
 }
@@ -106,7 +110,7 @@ body {
   justify-content: center;
   background-color: var(--div2-color);
   width: 29%;
-  height: 90vh;
+  height: 59vh;
   margin: 0.5%;
   border-radius: 0.8rem;
 }
