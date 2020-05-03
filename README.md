@@ -2,7 +2,7 @@
 
 ### I have recreated the following Responsive Design
 
-#### Demo:
+#### Demos:
 
 ##### First Mockup https://dasilvabrunotexas.github.io/UXResponsiveDesign/first_mockup/
 

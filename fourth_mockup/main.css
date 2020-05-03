@@ -1,5 +1,5 @@
 /**************************************************************************************************************** 
- The responsive design is acheive by a combination of flex-box, the usage of flexible unities and @media queries
+ The responsive design is achieved by a combination of flex-box, the usage of flexible unities and @media queries
 
 *****************************************************************************************************************/
 
@@ -65,16 +65,7 @@ body {
   background-color: transparent;
   margin: 0.5%;
 }
-/* .two__divOne{
-  display: flex; 
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 49.5%;
-  background-color: var(--div3-color);
-  border-radius: 0.8rem;
-  
-} */
+
 .two__divTwo,
 .two__divOne {
   display: flex;
