@@ -19,7 +19,7 @@ Try to recreate the following mockups by using responsive design. The images on 
 
 ### 🎨🍒🍇🍋 Color Pallet
 
-Take a look at the [Design seeds](https://www.design-seeds.com/) find a nice color pallet and implement it to your design.
+Take a look at the [Design seeds](https://www.design-seeds.com/) web site find a nice color pallet and implement it to your design.
 
 ### 💻 Demos 📱
 
