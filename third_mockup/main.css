@@ -1,5 +1,5 @@
 /**************************************************************************************************************** 
- The responsive design is achieved by a combination of flex-box, the usage of flexible unities and @media queries
+ The responsive design is acheive by a combination of flex-box, the usage of flexible unities and @media queries
 
 *****************************************************************************************************************/
 
@@ -28,14 +28,10 @@ body {
 .container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
   align-items: center;
-  align-content: space-around;
+  justify-content: center;
   color: var(--div5-color);
-  height: 100vh;
-  overflow: hidden;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  margin: 1%;
 }
 
 .container h1 {
@@ -48,9 +44,10 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 98%;
-  height: 35vh !important;
+  width: 99%;
+  height: 40vh !important;
   background-color: var(--div1-color);
+  margin: 0.5%;
   border-radius: 0.8rem;
 }
 
@@ -58,10 +55,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   width: 69%;
-  height: 59vh !important;
+  height: 90vh !important;
   background-color: transparent;
+  margin: 0.5%;
 }
 .two__divOne {
   display: flex;
@@ -91,6 +89,7 @@ body {
   justify-content: center;
   background-color: var(--div3-color);
   width: 33%;
+  margin: auto;
   height: 100%;
   border-radius: 0.8rem;
 }
@@ -102,7 +101,7 @@ body {
   justify-content: center;
   background-color: var(--div2-color);
   width: 29%;
-  height: 59vh;
+  height: 90vh;
   margin: 0.5%;
   border-radius: 0.8rem;
 }
