@@ -29,4 +29,4 @@ Take a look at the [Design seeds](https://www.design-seeds.com/) web site find a
 
 ##### Third Mockup https://brunno-dasilva.github.io/UXResponsiveDesign/third_mockup/
 
-##### Fourth Mockup https://brunno-dasilva.github.io/UXResponsiveDesign/fourth_mockup/
+##### Fourth Mockup https://brunno-dasilva.github.io/UXResponsiveDesign/fourth_mockup/index.html
